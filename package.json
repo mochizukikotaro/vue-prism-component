@@ -10,8 +10,10 @@
   "main": "dist/vue-prism-component.common.js",
   "cdn": "dist/vue-prism-component.min.js",
   "unpkg": "dist/vue-prism-component.min.js",
+  "typings": "types/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "types/*.d.ts"
   ],
   "scripts": {
     "test": "echo 'no tests!' && npm run lint",
